@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap");
+
+.background {
+  background-image: url(../img/cleo-topper.jpg);
+  filter: brightness(50%);
+  height: 520vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div:nth-child(2) {
+  display: inline;
+  font-family: "Roboto";
+  font-weight: bolder;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #e7bc0e;
+  font-size: 2em;
+  position: absolute;
+  bottom: 84vh;
+  left: 80vw;
+  width: 10vw;
+}
+
+div:nth-child(2) img {
+  position: absolute;
+  right: 11vw;
+  top: 2vh;
+  width: 5vw;
+  height: 5vh;
+}
+
+div:nth-child(3) article {
+  position: absolute;
+  left: 10vw;
+  top: 20vh;
+  color: #fff;
+  text-align: left;
+  font-family: "Santio\ Bold";
+  font-size: 4.7em;
+  width: 20vw;
+}
+
+div:nth-child(3) p:nth-child(2) {
+  color: #e7bc0e;
+  font-family: "Mr Dafoe";
+  position: absolute;
+  top: 80vh;
+  left: 10vw;
+  font-size: 2.4em;
+}
+div:nth-child(4) p {
+  margin-top: 80vh;
+  color: #6bc1a3;
+  position: absolute;
+  top: 67vh;
+  left: 20vw;
+  font-family: "Santio\ Bold";
+  font-size: 2em;
+  width: 40vw;
+}
+
+.non {
+  font-family: "Santio\ Bold";
+  color: #fff;
+  font-weight: bolder;
+  background-color: #000;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Santio\ Bold";
+  src: url("../font/santio/SANTIO/TTF/Santio\ Bold.ttf");
+}
+
+div:nth-child(5) img {
+  width: 15vw;
+  height: 15vh;
+  position: absolute;
+  top: 247vh;
+  left: 30vw;
+}
+div:nth-child(5) p {
+  font-family: "Santio\ Bold";
+  color: #e7bc0e;
+  position: absolute;
+  top: 250vh;
+  left: 33.5vw;
+  font-size: 8em;
+  width: 40vw;
+}
+
+div:nth-child(5) p:nth-child(3) {
+  font-family: "Santio\ Bold";
+  color: #e7bc0e;
+  position: absolute;
+  top: 277vh;
+  font-weight: bolder;
+  left: 33.5vw;
+  font-size: 2.3em;
+  width: 40vw;
+}
+
+div:nth-child(6) p {
+  font-family: "Santio\ Bold";
+  color: #cb91b6;
+  position: absolute;
+  top: 346vh;
+  font-weight: bolder;
+  left: 33.5vw;
+  font-size: 2.3em;
+  width: 40vw;
+}
+
+div:nth-child(6) p:nth-child(3) {
+  font-family: "Santio\ Bold";
+  color: #cb91b6;
+  position: absolute;
+  top: 337vh;
+  left: 33.5vw;
+  font-size: 8em;
+  width: 40vw;
+}
+
+div:nth-child(6) img {
+  width: 15vw;
+  height: 15vh;
+  position: absolute;
+  top: 330vh;
+  left: 30vw;
+}
+
+div:nth-child(7) p {
+  font-family: "Santio\ Bold";
+  color: #6bc1a3;
+  position: absolute;
+  top: 404vh;
+  left: 33.5vw;
+  font-size: 8em;
+  width: 40vw;
+}
+
+div:nth-child(7) p:nth-child(3) {
+  font-family: "Santio\ Bold";
+  color: #6bc1a3;
+  position: absolute;
+  top: 432vh;
+  font-weight: bolder;
+  left: 33.5vw;
+  font-size: 2.3em;
+  width: 40vw;
+}
+
+div:nth-child(7) img {
+  width: 15vw;
+  height: 15vh;
+  position: absolute;
+  top: 400vh;
+  left: 30vw;
+}
+
+div:nth-child(8) p {
+  margin-top: 80vh;
+  color: #7eb8e1;
+  position: absolute;
+  top: 390vh;
+  left: 36vw;
+  font-family: "Santio\ Bold";
+  font-size: 2em;
+  width: 40vw;
+}
+
+div:nth-child(9) img {
+  position: absolute;
+  width: 100vw;
+  height: 150vh;
+}
+
+div:nth-child(10) {
+  position: absolute;
+  top: 671vh;
+  background-color: black;
+  width: 100vw;
+  height: 120vh;
+}
+
+div:nth-child(10) p {
+  position: absolute;
+  left: 10vw;
+  top: 20vh;
+  color: #fff;
+  font-weight: bolder;
+  text-align: left;
+  font-family: "Santio\ Bold";
+  font-size: 4.7em;
+  width: 34vw;
+}
+
+div:nth-child(10) button {
+  position: absolute;
+  font-family: "Roboto";
+  left: 10vw;
+  top: 80vh;
+  width: 10vw;
+  height: 10vh;
+  border: 1px solid white;
+  color: white;
+  font-size: 2em;
+  background-color: black;
+}
+
+button:hover {
+  box-shadow: 4px 4px 3px white;
+  cursor: pointer;
+}
+
+footer p {
+  display: inline-block;
+  position: absolute;
+  top: 785vh;
+  color: white;
+  font-family: "Roboto";
+  font-size: 1em;
+  width: 100vw;
+  text-align: center;
+  background-color: black;
+}
+.nan {
+  color: #6bc1a3;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #e7bc0e;
+}
